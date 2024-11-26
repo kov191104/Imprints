@@ -36,9 +36,9 @@ Navigate to **[http://127.0.0.1:5000](http://127.0.0.1:5000)** to access the web
 
 ---
 
-## 🎥 **Frontend Demo**
-Watch how easy it is to use our application! 🌟👇
-[🎥 Click here to watch the demo](""K:\Captures\imprints.mp4"")
+## 🎥 **Frontend **
+![Description of the Photo]("C:\Users\Kovarthana\Downloads\oo.png")
+
 
 ---
 
