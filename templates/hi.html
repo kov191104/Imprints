@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blood Group Prediction</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='../static/hi.css') }}">
+</head>
+<body>
+    <div class="video-bg">
+        <video autoplay loop muted playsinline>
+            <source src="../static/images/v2.mp4" type="video/mp4">
+        </video>
+    </div>
+
+    <div class="container">
+        <!-- Titles -->
+        <div class="title">Imprints</div>
+        
+
+        <!-- Form and Result -->
+        <div class="card">
+            <form action="/" method="POST" enctype="multipart/form-data">
+                <input type="file" name="file" accept="image/*" required>
+                <button type="submit">Upload and Predict</button>
+            </form>
+
+            {% if prediction %}
+            <div class="result">
+                <h2>Predicted Blood Group: {{ prediction }}</h2>
+                <img src="{{ url_for('static', filename=image_path.split('/')[-1]) }}" alt="">
+            </div>
+            {% endif %}
+        </div>
+    </div>
+</body>
+</html>

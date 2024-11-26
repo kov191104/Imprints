@@ -1,0 +1,106 @@
+/* Body Styling */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    color: #FFFFFF; /* White text for better contrast */
+    overflow: hidden;
+}
+.video-bg {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    z-index: -1; /* Place it behind all content */
+}
+
+.video-bg video {
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    object-fit: cover; /* Ensures the video covers the screen without distortion */
+}
+/* Container */
+.container {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 120vh;
+}
+
+.title {
+    position: absolute;
+    top: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 150px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    z-index: 10; /* Ensures it appears above other elements */
+}
+
+
+
+/* Card Styling */
+.card {
+    background-color: rgba(12, 12, 12, 0.8); /* Semi-transparent dark background for the card */
+    padding: 30px;
+    border-radius: 50px;
+    box-shadow: 0 4px 15px rgba(241, 234, 234, 0.3);
+    text-align: center;
+    max-width: 600px;
+    width: 100%;
+}
+
+/* Form Elements */
+input[type="file"] {
+    font-size: 1rem;
+    padding: 10px 20px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 6px;
+    background-color: #7d7c7f;
+    color: rgb(245, 241, 249);
+    cursor: pointer;
+}
+
+input[type="file"]::-webkit-file-upload-button {
+    margin-right: 10px; /* Adjusts spacing between button and text */
+}
+
+
+button {
+    font-size: 1rem;
+    padding: 10px 20px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 6px;
+    background-color: #c9a0f1;
+    color: rgb(15, 14, 14);
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+button:hover {
+    background-color: #0288D1;
+}
+
+/* Result Styling */
+.result {
+    margin-top: 20px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding: 10px;
+    background-color: #68676b;
+    border-radius: 8px;
+}
