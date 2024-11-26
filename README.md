@@ -38,7 +38,10 @@ Navigate to **[http://127.0.0.1:5000](http://127.0.0.1:5000)** to access the web
 
 ## 🎥 **Frontend Demo**
 Watch how easy it is to use our application! 🌟👇
-
+<video controls>
+  <source src=""K:\Captures\Blood Group Prediction - Google Chrome 2024-11-27 01-32-50.mp4"" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
 
 ---
 
