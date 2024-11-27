@@ -1,6 +1,6 @@
 
 
-# 🩸** Imprints **
+# 🩸Imprints 
 **Blood Group Classification via Fingerprints** 🖐️
 
 Welcome to the **Blood Group Classification** project! 🎉 This repository showcases an innovative deep-learning model designed to predict blood groups based on fingerprint patterns. 🧬✨
