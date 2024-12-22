@@ -37,9 +37,17 @@ Navigate to **[http://127.0.0.1:5000](http://127.0.0.1:5000)** to access the web
 ---
 
 ## 🎥 **Frontend **
-![Frontend Screenshot 1](bgp/1.png)
-![Frontend Screenshot 2](bgp/2.png)
-![Frontend Screenshot 3](bgp/3.png)
+  
+### **Main Interface**  
+![main](bgp/1.png)  
+
+### **Input Image**  
+![input](bgp/2.png)  
+
+### **Predicted Result**  
+
+![result](bgp/3.png)  
+
 
 ---
 
